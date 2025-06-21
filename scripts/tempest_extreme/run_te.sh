@@ -1,0 +1,1 @@
+DetectBlobs --in_data_list in_data.txt --out_list out_data.txt --thresholdcmd "_LAPLACIAN{8,10}(ivt),<=,-20000,0" --minabslat 15 --geofiltercmd "area,>=,4e5km2" --lonname "longitude" --latname "latitude"
